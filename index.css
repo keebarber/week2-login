@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  border-top: 1px solid white;
+  padding: 10px 0 0 0;
+}
+
+.flex-item {
+  background-color: white;
+  width: 375px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+input {
+  margin: 10px 45px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+button {
+  margin: 30px 45px 40px 45px;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+.flex-item p{
+  text-align: center;
+  font-size: .75em;
+  margin-top: 0;
+  color: #ccc;
+}
+
+a {
+  color: #ccc;
+}
+
+a:hover {
+  color: skyblue;
+  opacity: .7;
+}
+
+button:hover {
+  opacity: .5;
+}
+
+#passworderror {
+  font-size: 0.75em;
+  color: red;
+  font-weight: 700;
+  text-align: center;
+}
+
+#trouble {
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 0 45px;
+}
+
+.header-box {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 220px;
+}
+
